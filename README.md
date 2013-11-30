@@ -23,3 +23,14 @@ $ git clone https://github.com/mkacik/upstart-dnscrypt-proxy.git
 ```
 # start dnscrypt
 ```
+
+If your dhclient is updating ```/etc/resolv.conf``` via dhcp, you may have to edit ```/etc/dhcp/dhclient.conf``` adding the following line:
+
+```
+supersede domain-name-servers 127.0.0.1;
+```
+and reload config
+
+```
+# resolvconf -u
+```
