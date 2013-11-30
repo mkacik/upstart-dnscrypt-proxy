@@ -1,6 +1,7 @@
 #### Upstart job definition for dnscrypt-proxy
 
 Install dnscrypt-proxy: <https://github.com/opendns/dnscrypt-proxy>. Binary should be installed in ```/usr/local/sbin/dnscrypt-proxy```.
+
 Fetch the repo:
 
 ```
