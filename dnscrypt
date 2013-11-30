@@ -1,0 +1,11 @@
+# configuration file for dnscrypt upstart job
+
+# set to empty value to use syslog
+#LOGFILE=
+LOGFILE=/var/log/dnscrypt-proxy.log
+
+# DNSCrypt comes pre-configured for OpenDNS,
+# leave following options empty to use default
+RESOLVER_ADDRESS=
+PROVIDER_NAME=
+PROVIDER_KEY=
