@@ -1,4 +1,4 @@
-Upstart job definition for dnscrypt-proxy
+#### Upstart job definition for dnscrypt-proxy
 
 1. Install dnscrypt-proxy: <https://github.com/opendns/dnscrypt-proxy>. Binary should be installed in ```/usr/local/sbin/dnscrypt-proxy```
 2. Fetch files
@@ -24,6 +24,7 @@ $ git clone https://github.com/mkacik/upstart-dnscrypt-proxy.git
 # start dnscrypt
 ```
 
+**Hint:**
 If your dhclient is updating ```/etc/resolv.conf``` via dhcp, you may have to edit ```/etc/dhcp/dhclient.conf``` adding the following line:
 
 ```
